@@ -34,14 +34,3 @@ We used BIO format here. Overall F1 score was 0.4981 on test set.
 | Task     | 0.2125    | 0.2537 | 0.2313   | 201     |
 | Avg      | 0.4551    | 0.5527 | 0.4981   | 1878    |
 
-### Future Work
-
-1. Some tokens have more than one annotations. We did not consider multi-label classification.
-2. We only considered a linear layer on top of BERT embeddings. We need to see whether SciBERT + BiLSTM + CRF makes a difference.
-
-## Credits
-
-1. SciBERT: https://github.com/allenai/scibert
-2. HuggingFace: https://github.com/huggingface/pytorch-pretrained-BERT
-3. PyTorch NER: https://github.com/lemonhu/NER-BERT-pytorch
-4. BERT: https://github.com/google-research/bert
